@@ -1,7 +1,7 @@
-# Hours to Seconds Converter
+# Calculate the number of seconds in a given number of hours
+
 hours = 2
+seconds_per_hours = 3600
 
-# Convert hours to seconds (1 hour = 3600 seconds)
-seconds = hours * 3600
-
-print(f"{hours} hours is equal to {seconds} seconds")
+total_seconds = hours * 3600
+print(f"{hours} hours is {seconds_per_hours} seconds.")
